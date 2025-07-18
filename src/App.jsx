@@ -23,7 +23,7 @@ function App() {
     {
       title: "Reservasi WhatsApp",
       description: "Chat untuk booking jadwal cuci motor",
-      url: "https://wa.me/6285129356047?text=Halo,%20saya%20ingin%20memesan%20layanan.%0ABerikut%20data%20pemesanan%20saya:%0A%0ANama:%0AAlamat%20Rumah:%0A(Mohon%20sertakan%20patokan/gang%20%26%20share%20lokasi%20WA%20setelah%20ini)%0A%0AWaktu%20Pemesanan:%20(Hari%20-%20Tanggal%20-%20Jam)%0ATipe%20Motor:%0AUkuran%20CC:%0APlat%20Nomor:%0AKeran%20Air%20diluar%20rumah:%20(Ada%20/%20Tidak)%0AColokan%20Listrik%20Dekat%20Halaman:%20(Ada%20/%20Tidak)%0A%0ATerima%20kasih.",
+      url: "https://wa.me/6285129356047?text=Halo%20admin,%20saya%20tertarik%20dengan%20layanan%20mobile%20service%20cuci%20motor.",
       icon: <img src={whatsappIcon} alt="WhatsApp" style={{ width: '1em', height: '1em' }} /> // Mengganti icon WhatsApp
     },
     {
