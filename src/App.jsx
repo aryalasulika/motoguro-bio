@@ -44,18 +44,18 @@ function App() {
       url: "https://drive.google.com/file/d/1xA7E4zYUXHmYYv_0AkyuwHQ5gKWzsQzd/view?usp=sharing",
       icon: "💲" // Mengganti icon untuk "Daftar Harga"
     },
+        {
+      title: "Lokasi",
+      description: "Lokasi kami",
+      url: "https://maps.app.goo.gl/aYbxpRDcSvPpmF718?g_st=aw",
+      icon: "📍"
+    },
     {
       title: "Syarat dan Ketentuan",
       description: "Baca syarat dan ketentuan layanan kami",
       url: "https://drive.google.com/file/d/1dGlp-xo-ubmYZElkPanawhwUtzudVfr0/view?usp=sharing",
       icon: "📜" // Icon untuk "Syarat dan Ketentuan"
     },
-    // {
-    //   title: "Lokasi & Kontak",
-    //   description: "Alamat workshop dan jam operasional",
-    //   url: "https://maps.google.com/motoguro",
-    //   icon: "📍"
-    // }
   ];
 
   return (
