@@ -5,8 +5,8 @@ const OperatingHours = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const hours = [
-    { day: 'Senin - Jumat', time: '09:00 - 17:00' },
-    { day: 'Sabtu - Minggu', time: '08:00 - 17:00' },
+    { day: 'Senin - Jumat', time: '09:00 - 19:00' },
+    { day: 'Sabtu - Minggu', time: '09:00 - 18:00' },
   ];
 
   useEffect(() => {
@@ -25,9 +25,9 @@ const OperatingHours = () => {
     let open = false;
 
     if (day >= 1 && day <= 5) { // Monday to Friday
-      open = hour >= 9 && hour < 17;
+      open = hour >= 9 && hour < 19;
     } else if (day === 0 || day === 6) { // Saturday and Sunday
-      open = hour >= 8 && hour < 17;
+      open = hour >= 9 && hour < 18;
     }
 
     setIsOpen(open);

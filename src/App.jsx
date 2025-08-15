@@ -47,7 +47,7 @@ function App() {
         {
       title: "Lokasi",
       description: "Lokasi kami",
-      url: "https://maps.app.goo.gl/aYbxpRDcSvPpmF718?g_st=aw",
+      url: "https://maps.app.goo.gl/iPoW1rnonP7CTrGb7",
       icon: "📍"
     },
     {
